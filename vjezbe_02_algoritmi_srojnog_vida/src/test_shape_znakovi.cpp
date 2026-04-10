@@ -14,14 +14,14 @@ int main()
     cv::Mat grayscale;
     cv::cvtColor(source, grayscale, cv::COLOR_BGR2GRAY);
 
-    int adaptiveMethod = 1;  // 0 = MEAN, 1 = GAUSSIAN
-    int blockSize = 31;
-    int cSlider = 52;        // Actual C = cSlider - 50
-    int minArea = 1200;
-    int maxArea = 8000;
-    int minRatioX100 = 70;   // 0.70
-    int maxRatioX100 = 130;  // 1.30
-    int approxEpsilon = 7;
+    int adaptiveMethod = 0;  // 0 = MEAN, 1 = GAUSSIAN
+    int blockSize = 13;
+    int cSlider = 51;        // Actual C = cSlider - 50
+    int minArea = 600;
+    int maxArea = 10000;
+    int minRatioX100 = 58;   // 0.70
+    int maxRatioX100 = 160;  // 1.30
+    int approxEpsilon = 8;
 
     cv::namedWindow("Controls", cv::WINDOW_NORMAL);
     cv::imshow("Original", source);
