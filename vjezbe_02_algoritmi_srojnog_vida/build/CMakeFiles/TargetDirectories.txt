@@ -1,0 +1,6 @@
+/home/khartl/FSB/autonomna-vozila/vjezbe_02_algoritmi_srojnog_vida/build/CMakeFiles/Cunjevi.dir
+/home/khartl/FSB/autonomna-vozila/vjezbe_02_algoritmi_srojnog_vida/build/CMakeFiles/Znakovi.dir
+/home/khartl/FSB/autonomna-vozila/vjezbe_02_algoritmi_srojnog_vida/build/CMakeFiles/Auto.dir
+/home/khartl/FSB/autonomna-vozila/vjezbe_02_algoritmi_srojnog_vida/build/CMakeFiles/OpenCV.dir
+/home/khartl/FSB/autonomna-vozila/vjezbe_02_algoritmi_srojnog_vida/build/CMakeFiles/edit_cache.dir
+/home/khartl/FSB/autonomna-vozila/vjezbe_02_algoritmi_srojnog_vida/build/CMakeFiles/rebuild_cache.dir
