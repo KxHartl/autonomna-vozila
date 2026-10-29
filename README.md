@@ -2,7 +2,7 @@
 
 **Autonomna vozila: algoritmi strojnog vida**
 
-> Course exercises – Autonomous Vehicles (Autonomna vozila), FSB, University of Zagreb, 2026
+> Course exercises for Autonomous Vehicles (Autonomna vozila), MSc, 4th semester, 2026, FSB, University of Zagreb
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17-00599C)
 ![OpenCV](https://img.shields.io/badge/vision-OpenCV-5C3EE8)
@@ -15,7 +15,7 @@ the parameters while it runs.
 
 ## What's inside
 
-All the work is in `vjezbe_02_algoritmi_srojnog_vida/`.
+All the work is in `vjezbe_02_algoritmi_strojnog_vida/`.
 
 | Program | Source | What it does |
 |---|---|---|
@@ -24,7 +24,7 @@ All the work is in `vjezbe_02_algoritmi_srojnog_vida/`.
 | `Auto` | `src/test_track_autonomous_vehicles.cpp` | goes through the frames in `data/` and keeps the contours that match the track by area and length |
 | `OpenCV` | `src/test.cpp` | the starting contour detection example |
 
-The test images are in `data/`.
+The test images are in `data/` and a saved output image is in `results/`.
 
 ## Build and run
 
@@ -32,7 +32,7 @@ The programs need OpenCV and a C++17 compiler. They read the images from `../dat
 started from the `build/` folder.
 
 ```bash
-cd vjezbe_02_algoritmi_srojnog_vida
+cd vjezbe_02_algoritmi_strojnog_vida
 cmake -S . -B build
 cmake --build build
 cd build

@@ -1,0 +1,13 @@
+# Build output
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+*.o
+*.out
+a.out
+
+# Editor and agent temp files
+**/.codex
+*.swp
+*~
